@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    android:orientation="vertical"
+    tools:context=".registro">
+
+    <TextView
+        android:id="@+id/txtRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:gravity="center"
+        android:text="@string/txtRegistro"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fondo1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtDocumento"
+                    android:layout_width="152dp"
+                    android:layout_height="66dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:hint="Documento"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:hint="Nombre Completo"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="731dp"
+                android:layout_height="91dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtDireccion"
+                    android:layout_width="152dp"
+                    android:layout_height="66dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:hint="Dirección"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtTelefono"
+                    android:layout_width="152dp"
+                    android:layout_height="66dp"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:hint="Telefono"
+                    android:inputType="phone" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txtEdad"
+                android:layout_width="152dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Edad"
+                android:inputType="phone" />
+
+            <LinearLayout
+                android:layout_width="466dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtMateria1"
+                    android:layout_width="173dp"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:ems="10"
+                    android:hint="Materia 1"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtNota1"
+                    android:layout_width="146dp"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:hint="Nota 1"
+                    android:inputType="phone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtMateria2"
+                    android:layout_width="173dp"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    android:ems="10"
+                    android:hint="Materia 2"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtNota2"
+                    android:layout_width="146dp"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:hint="Nota 2"
+                    android:inputType="phone" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtMateria3"
+                    android:layout_width="173dp"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    android:ems="10"
+                    android:hint="Materia 3"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtNota3"
+                    android:layout_width="146dp"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:hint="Nota 3"
+                    android:inputType="phone" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtMateria4"
+                    android:layout_width="173dp"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    android:ems="10"
+                    android:hint="Materia 4"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtNota4"
+                    android:layout_width="146dp"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:hint="Nota 4"
+                    android:inputType="phone" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtMateria5"
+                    android:layout_width="173dp"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    android:ems="10"
+                    android:hint="Materia 5"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtNota5"
+                    android:layout_width="146dp"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:hint="Nota 5"
+                    android:inputType="phone" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="275dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="20dp"
+                android:text="Calcular" />
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="275dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:text="Salir" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

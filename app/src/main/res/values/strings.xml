@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mis pequeños Saltamontes</string>
+    <string name="bienvenidos">!Bienvenidos!</string>
+    <string name="txtRegistro">Registro</string>
+    <string name="txtEstadisticas">Estadisticas</string>
+    <string name="txtInstrucciones">Instrucciones</string>
+    <string name="txtResultados">Resultados</string>
+    <string name="uso">Al abrir la aplicacion aparecera el menu principal, el cual tiene tres botones </string>
+    <string name="registro">Este boton nos llevara a un formulario, en el cual debera ingresar los datos del estudiante, sus datos personales, materias y notas. Esta interfaz tambien cuenta con un boton de calcular, este lo precionaremos para obtener los resultados del promedio y saber si el estudiante, perdio, gano y si puede recuperar. Una vez ya realizado el promedio podemos devolvernos a la interfaz principal mediante el boton de salir  </string>
+    <string name="Estadisticas">Este boton nos llevara a ver los resultados de los estudiantes, todos los registrados, los que perdieron, ganaron o perdieron y pueden recuperar</string>
+    <string name="Instrucciones">En estos momentos estas en las instrucciones, aca podras ver el funcionamiento de la aplicacion</string>
+
+</resources>

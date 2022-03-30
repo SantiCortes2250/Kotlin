@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    android:orientation="vertical"
+    tools:context=".Estadisticas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fondo1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="281dp"
+                android:layout_height="wrap_content"
+                android:text="Ventana Principal"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="343dp"
+                android:layout_height="104dp"
+                android:text="@string/uso"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:text="Boton Registro"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="353dp"
+                android:layout_height="334dp"
+                android:text="@string/registro"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:text="Boton Estadisticas"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="340dp"
+                android:layout_height="148dp"
+                android:text="@string/Estadisticas"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnSalirInstru"
+                android:layout_width="210dp"
+                android:layout_height="63dp"
+                android:text="Salir" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
